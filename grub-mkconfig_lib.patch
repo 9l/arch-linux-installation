@@ -1,0 +1,24 @@
+--- /usr/share/grub/grub-mkconfig_lib	2020-04-21 21:10:29.936276543 -0300
++++ /tmp/grub-mkconfig_lib	2020-04-21 21:10:03.566276064 -0300
+@@ -256,13 +256,14 @@
+ 
+ version_find_latest ()
+ {
+-  version_find_latest_a=""
+-  for i in "$@" ; do
+-    if version_test_gt "$i" "$version_find_latest_a" ; then
+-      version_find_latest_a="$i"
+-    fi
+-  done
+-  echo "$version_find_latest_a"
++#  version_find_latest_a=""
++#  for i in "$@" ; do
++#    if version_test_gt "$i" "$version_find_latest_a" ; then
++#      version_find_latest_a="$i"
++#    fi
++#  done
++#  echo "$version_find_latest_a"
++  echo $@ | tr ' ' '\n' | sort -V | head -1 | cat
+ }
+ 
+ # One layer of quotation is eaten by "" and the second by sed; so this turns
