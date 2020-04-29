@@ -1,2 +1,2 @@
-# arch-linux-installation
-Arch Linux 安装
+# Arch Linux 安装
+=
