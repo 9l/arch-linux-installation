@@ -32,9 +32,9 @@ OsIndications="$efi_vars_dir/OsIndicationsSupported-$EFI_GLOBAL_VARIABLE"
 
 if [ -e "$OsIndications" ] && \
    [ "$(( $(printf 0x%x \'"$(cat $OsIndications | cut -b5)") & 1 ))" = 1 ]; then
-  LABEL="UEFI Firmware Settings"
+  LABEL="Reboot Into UEFI Firmware Settings"
 
-  gettext_printf "Adding boot menu entry for UEFI Firmware Settings\n" >&2
+  gettext_printf "Adding boot menu entry for Reboot Into UEFI Firmware Settings\n" >&2
 
   onstr="$(gettext_printf "(on %s)" "${DEVICE}")"
 
