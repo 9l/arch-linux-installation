@@ -98,7 +98,7 @@ NVME 的固态硬盘会识别为 `/dev/nvmeNnN` 的设备，
 ```bash
 root@archiso ~ # fdisk /dev/sdX
 ```
-### 查看现有分区
+### 查看现在的分区表
 ```fdisk
 Command (m for help): p
 ```
