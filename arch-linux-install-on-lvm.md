@@ -295,11 +295,7 @@ HOOKS=(base udev autodetect modconf block lvm2 filesystems keyboard fsck)
 [root@archiso /]# mkinitcpio -P
 ```
 ## 设置时区
-### 启用网络时间同步
-```bash
-[root@archiso /]# timedatectl set-ntp true
-```
-### 时区
+### 本地时区
 ```bash
 [root@archiso /]# ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ```
