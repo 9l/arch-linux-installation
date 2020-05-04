@@ -2,7 +2,7 @@
 Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 ## `Arch Linux` 是啥
 看这里 [https://wiki.archlinux.org/index.php/Arch_Linux_(简体中文)](https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
-## `LVM` 又是啥
+## `LVM` 分区又是啥
 看这里 [https://wiki.archlinux.org/index.php/LVM_(简体中文))](https://wiki.archlinux.org/index.php/LVM_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
 ## 安装前准备
 ### 下载 `Arch Linux ISO` 文件
