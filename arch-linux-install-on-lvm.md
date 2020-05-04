@@ -471,9 +471,9 @@ root@archiso ~ # reboot
 ```
 *见证奇迹的时刻*
 ## 安装后的工作
-系统重启成功，后续还有对系统网络安全设置、系统优化、安装图形界面、中文化、安装中文字体和个性化等，可以先看看官方的文档
-[https://wiki.archlinux.org/index.php/General_recommendations_(简体中文)](https://wiki.archlinux.org/index.php/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
-[https://wiki.archlinux.org/index.php/Localization/Simplified_Chinese_(简体中文)](https://wiki.archlinux.org/index.php/Localization/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
+系统重启成功，后续还有对系统网络安全设置、系统优化、安装图形界面、中文化、安装中文字体和个性化等的工作，可以先看看官方的文档
+  - [https://wiki.archlinux.org/index.php/General_recommendations_(简体中文)](https://wiki.archlinux.org/index.php/General_recommendations_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
+  - [https://wiki.archlinux.org/index.php/Localization/Simplified_Chinese_(简体中文)](https://wiki.archlinux.org/index.php/Localization/Simplified_Chinese_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) 
 #
 ##### 参考资料
   - [https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM](https://wiki.learnlinux.tv/index.php/How_to_Install_Arch_Linux_on_LVM) 
