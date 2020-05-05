@@ -597,6 +597,7 @@ zh_CN.UTF-8 UTF-8
 [root@archiso /]# pacman -S mesa vulkan-intel
 ```
 
+<!--
 #### 硬件视频加速支持
 
 `Broadwell` 系列集显
@@ -610,6 +611,7 @@ zh_CN.UTF-8 UTF-8
 ```bash
 [root@archiso /]# pacman -S libva-intel-driver
 ```
+-->
 
 ### `AMD` 显卡
 
@@ -617,6 +619,7 @@ zh_CN.UTF-8 UTF-8
 [root@archiso /]# pacman -S amdvlk mesa vulkan-radeon
 ```
 
+<!--
 #### 硬件视频加速支持
 
 `AMDGPU` 和 `AMDGPU PRO`
@@ -624,6 +627,7 @@ zh_CN.UTF-8 UTF-8
 ```bash
 [root@archiso /]# pacman -S libva-mesa-driver mesa-vdpau
 ```
+-->
 
 ### `Nvidia` 显卡
 
@@ -637,9 +641,11 @@ zh_CN.UTF-8 UTF-8
 [root@archiso /]# pacman -S nvidia-lts
 ```
 
+<!--
 #### 硬件视频加速支持
 
 > `Nvidia` 显卡的硬件视频加速由 `nvidia-utils` 提供支持
+-->
 
 ### `Arch Linux` 安装在 `Virtualbox` 虚拟机中
 
