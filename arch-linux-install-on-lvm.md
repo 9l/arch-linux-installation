@@ -24,11 +24,15 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 建议下载免安装的 `Portable` 版本
 
+![etcher-download-portable](images/01-etcher-download-portable-768x657.png)
+
 ## 安装到实体电脑上
 
 准备一个 8G 容量以上的 U 盘，用 `Etcher` 将下载的 `ISO` 文件写入到 U 盘中
 
 用 U 盘启动电脑，选择 `Arch Linux archiso x86_64 UEFI CD` 进入到 `Arch Linux` 安装系统
+
+![archlinuxiso-uefi-menu](images/02-archlinuxiso-uefi-menu-800x600.png)
 
 ## 安装到虚拟机上
 
