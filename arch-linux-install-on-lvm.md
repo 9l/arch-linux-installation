@@ -46,6 +46,10 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 > *如何使用虚拟机就自己网上找一下吧*
 
+## `Arch Linux` 安装系统启动成功并以 `root` 管理员用户自动登陆
+
+![archlinuxiso-autologin-prompt](images/03-archliunxiso-autologin-prompt-800x600.png)
+
 ## 确认系统是否支持 `UEFI` 引导
 
 查看 `/sys/firmware/efi/efivars` 这个目录是否存在，如果提示没有这个目录，那系统就不是 `UEFI` 引导的
@@ -247,8 +251,7 @@ root@archiso ~ # pvcreate /dev/sdX2
 
 ### 创建卷组
 
-`arch` 是卷组名称，可以替换为你想要的名称，名称只能由英文大小写字母、数字、加号、下划线、点和减号/连字符组成 `a-z A-Z 0-9 + _ . -`，
-名称开头不能是减号/连字符，详细信息可在 [lvm(8) ](https://jlk.fjfi.cvut.cz/arch/manpages/man/lvm.8#VALID_NAMES) 中查到
+`arch` 是卷组名称，可以替换为你想要的名称，名称只能由 `ASCII` 字符里的英文大小写字母、数字、加号、下划线、点和减号/连字符组成 `a-zA-Z0-9+_.-`，名称开头不能是减号/连字符，详细信息可在 [lvm(8)](https://jlk.fjfi.cvut.cz/arch/manpages/man/lvm.8#VALID_NAMES) 中查到
 
 ```bash
 root@archiso ~ # vgcreate arch /dev/sdX2
@@ -506,6 +509,8 @@ zh_CN.UTF-8 UTF-8
 ```
 
 ## 创建 `hostname` 文件
+
+`hostname` 就是你的系统名称，将 `arch` 替换为你想要的名称，只能使用 `ASCII` 字符里的英文大小写字母、数字和减号/连字符组成 `a-zA-Z0-9-`，不能含有空格、其他的标点符号、下划线和中文字符，名称开头和结尾不能是减号/连字符，最好也不要用数字开头，详细说明可以看这里 [hostname(5)](https://jlk.fjfi.cvut.cz/arch/manpages/man/community/man-pages-zh_cn/hostname.5.zh_CN)
 
 ```bash
 [root@archiso /]# echo 'arch' > /etc/hostname
