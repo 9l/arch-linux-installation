@@ -108,7 +108,7 @@ root@archiso ~ # passwd
 
 > 这步操作是可选的
 
-### Windows 10 自带 `SSH` 客户端
+### `Windows 10` 自带 `OpenSSH` 客户端
 
 使用 Windows 的 `命令提示符` 或者 `PowerShell` 登录 `SSH`
 
@@ -116,7 +116,27 @@ root@archiso ~ # passwd
 C:\>ssh root@arch-ip
 ```
 
-### Linux 终端登录 `SSH` 
+### 其他版本的 `Windows` 可以使用第三方的客户端登陆 `SSH`
+
+#### `PuTTY`
+
+下载地址: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+> 建议下载免安装版的 `puttp.zip` 合集包
+
+#### `MobaXterm`
+
+下载地址: [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)
+
+> 建议下载免安装 `Portable` 版。这是个收费软件，不过有提供个人使用的免费版，这个软件还提供很多插件，功能很强大
+
+#### `XShell`
+
+下载地址: [https://www.netsarang.com/zh/free-for-home-school/](https://www.netsarang.com/zh/free-for-home-school/)
+
+> 这是个收费软件，不过有提供个人使用的免费版
+
+### `Linux` 终端登录 `SSH` 
 
 ```bash
 ~ $ ssh root@arch-ip
