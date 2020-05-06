@@ -108,6 +108,12 @@ root@archiso ~ # passwd
 
 > 这步操作是可选的
 
+### `Linux` 终端登录 `SSH` 
+
+```bash
+~ $ ssh root@arch-ip
+```
+
 ### `Windows 10` 自带 `OpenSSH` 客户端
 
 使用 Windows 的 `命令提示符` 或者 `PowerShell` 登录 `SSH`
@@ -136,13 +142,7 @@ C:\>ssh root@arch-ip
 
 > 这是个收费软件，不过有提供个人使用的免费版
 
-### `Linux` 终端登录 `SSH` 
-
-```bash
-~ $ ssh root@arch-ip
-```
-
-> `SSH` 登录后会显示和安装电脑相同的终端提示符
+### `SSH` 登录后会显示和安装电脑相同的终端提示符
 
 ```bash
 root@archiso ~ # _
