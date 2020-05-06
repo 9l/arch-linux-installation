@@ -24,7 +24,7 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 建议下载免安装的 `Portable` 版本
 
-![etcher-download-portable](images/01-etcher-download-portable-768x657.png)
+![etcher-download-portable](images/101-etcher-download-portable-768x657.png)
 
 ## 安装到实体电脑上
 
@@ -32,7 +32,7 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 用 U 盘启动电脑，选择 `Arch Linux archiso x86_64 UEFI CD` 进入到 `Arch Linux` 安装系统
 
-![archlinuxiso-uefi-menu](images/02-archlinuxiso-uefi-menu-800x600.png)
+![archlinuxiso-uefi-menu](images/102-archlinuxiso-uefi-menu-800x600.png)
 
 ## 安装到虚拟机上
 
@@ -48,7 +48,7 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 
 ## `Arch Linux` 安装系统启动成功并以 `root` 管理员用户自动登陆
 
-![archlinuxiso-autologin-prompt](images/03-archliunxiso-autologin-prompt-800x600.png)
+![archlinuxiso-autologin-prompt](images/103-archliunxiso-autologin-prompt-800x600.png)
 
 ## 确认系统是否支持 `UEFI` 引导
 
@@ -59,6 +59,8 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 ```bash
 root@archiso ~ # ls /sys/firmware/efi/efivars
 ```
+
+![check-efivars](images/104-check-efivars-800x600.png)
 
 ## 安装系统启动后先检查网络
 
