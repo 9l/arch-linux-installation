@@ -17,3 +17,7 @@ Arch Linux 中文社区: https://www.archlinuxcn.org/
 ## 将 `Arch Linux` 安装在加密 `LVM` 分区上
 
 [arch-linux-install-on-encrypted-lvm.md](arch-linux-install-on-encrypted-lvm.md)
+
+## `Arch Linux` 安装完成后的一些工作
+
+[arch-linux-post-install.md](arch-linux-post-install.md)
