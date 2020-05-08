@@ -122,7 +122,7 @@ root@archiso ~ # passwd
 C:\> ssh root@arch-ip
 ```
 
-### 其他版本的 `Windows` 可以使用第三方的客户端登陆 `SSH`
+### 其他版本的 `Windows` 可以使用第三方的终端工具登陆 `SSH`
 
 #### `PuTTY`
 
