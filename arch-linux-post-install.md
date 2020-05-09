@@ -578,6 +578,8 @@ ILoveCandy # 可以自己添加这个选项，让下载和安装软件时的进�
 
 ### 添加 `Arch Linux` 中文社区仓库
 
+> 这是个可选仓库，有需要的可以添加上
+
 中文社区仓库里都有啥可以看这里 [https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/)
 
 > 中文社区仓库镜像列表: [https://github.com/archlinuxcn/mirrorlist-repo](https://github.com/archlinuxcn/mirrorlist-repo)
