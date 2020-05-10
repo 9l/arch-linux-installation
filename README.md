@@ -21,3 +21,15 @@ Arch Linux 中文社区: https://www.archlinuxcn.org/
 ## `Arch Linux` 安装完成后的一些工作
 
 [arch-linux-post-install.md](arch-linux-post-install.md)
+
+## 在 `Arch Linux` 上安装 `Xfce` 桌面环境
+
+[arch-linux-install-xfce-desktop-environment.md](arch-linux-install-xfce-desktop-environment.md)
+
+## `Arch Linux` 中文化 
+
+[arch-linux-chinese-localization.md](arch-linux-chinese-localization.md)
+
+## `Arch Linux` 优化和故障排除
+
+[arch-linux-tweaks-and-troubleshooting.md](arch-linux-tweaks-and-troubleshooting.md)
