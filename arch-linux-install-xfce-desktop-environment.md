@@ -59,7 +59,7 @@ Enter a selection (default=all):
 
 ![archlinux-xfce-desktop](images/403-archlinux-xfce-desktop-800x600.png)
 
-> 这个桌面好丑啊。真的不要害怕，桌面外观是可以个性化修改[更换外观主题](arch-linux-install-xfce-desktop-environment.md#更换外观主题)。`Xfce` 自带有外观主题，更多主题从这个网站下载 [https://www.xfce-look.org/](https://www.xfce-look.org/)
+> 这个桌面好丑啊。真的不要害怕，桌面外观是可以个性化修改[更换外观主题和窗口样式](arch-linux-install-xfce-desktop-environment.md#更换外观主题和窗口样式)。`Xfce` 自带有外观主题，更多主题从这个网站下载 [https://www.xfce-look.org/](https://www.xfce-look.org/)
 
 ### 安装一些常用的软件和插件
 
