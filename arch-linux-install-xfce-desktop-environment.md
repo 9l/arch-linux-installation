@@ -125,9 +125,9 @@ Enter a selection (default=all):
 
 #### 更换外观主题和窗口样式
 
-打开 `appearance` 外观设置，选择想要更换的外观主题
+打开 `Appearance` 外观设置，选择想要更换的外观主题
 
-*从屏幕顶上菜单打开*
+*从桌面顶部菜单打开*
 
 ![archlinux-xfce-appearance-01](images/408-archlinux-xfce-appearance-01-800x600.png)
 
@@ -141,7 +141,7 @@ Enter a selection (default=all):
 
 打开 `Window Manager` 窗口管理，选择想要的窗口样式
 
-*从屏幕顶上菜单打开*
+*从桌面顶部菜单打开*
 
 ![archlinux-window-manager-01](images/434-archlinux-window-manager-01-800x600.png)
 
@@ -223,7 +223,33 @@ Enter a selection (default=all):
 
     ![archlinux-xfce-desktop-settings-06](images/419-archlinux-xfce-desktop-settings-06-800x600.png)
 
+### 更改显示分辨率
 
+打开 `Display` 显示设置
+
+*从桌面顶部菜单打开*
+
+![archlinux-xfce-display-01](images/407-archlinux-xfce-display-01-800x600.png)
+
+*从桌面右键菜单打开*
+
+![archlinux-xfce-display-02](images/421-archlinux-xfce-display-02-800x600.png)
+
+*从 `Resolution` 选择合适的分辨率*
+
+![archlinux-xfce-display-03](images/422-archlinux-xfce-display-03-800x600.png)
+
+*按 `Apply` 按钮提交修改*
+
+![archlinux-xfce-display-04](images/423-archlinux-xfce-display-04-800x600.png)
+
+*按 `Keep this configuration` 保存设置*
+
+![archlinux-xfce-display-05](images/424-archlinux-xfce-display-05-800x640.png)
+
+*更改显示分辨率后的桌面*
+
+![archlinux-xfce-display-06](images/437-archlinux-xfce-display-06-800x640.png)
 
 ##### 参考资料
 
