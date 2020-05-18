@@ -1,8 +1,8 @@
-# Arch Linux 中文化 
+# Arch Linux 系统中文化 
 
-## 系统中文化
+刚安装好的 `Arch Linux` 系统是英文界面也不能显示和输入中文，需要进行系统界面中文化设置、安装中文字体和中文输入法。
 
-刚安装好的 `Arch Linux` 系统是英文界面，也不能正常显示中文，需要进行中文化设置和安装中文输入法
+## 系统界面中文化设置
 
 ### 在更改为中文界面前需要先安装中文字体
 
@@ -190,7 +190,7 @@
 
 ![archlinux-xfce-desktop-chinese-02](images/508-archlinux-xfce-desktop-chinese-02-800x640.png)
 
-### 安装中文输入法
+## 安装中文输入法
 
 #
 
