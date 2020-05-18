@@ -14,7 +14,7 @@
   - `wqy-microhei` - 文泉驿微米黑，无衬线形式字体。
   - `wqy-microhei-lite` - 文泉驿微米黑 light 版（笔画更细）。
 
-> 提示： 中文用户在安装思源 CJK 全集或者 Noto-CJK 全集后，部分文字显示为日文异形字体，可参看 [修正简体中文显示为异体（日文）字形](arch-linux-chinese-localization.md#修正简体中文显示为异体（日文）字形) 进行解决。
+> 提示： 中文用户在安装思源 CJK 全集或者 Noto-CJK 全集后，部分文字显示为日文异形字体，可参看 [修正简体中文显示为异体（日文）字形](arch-linux-chinese-localization.md#修正简体中文显示为异体日文字形) 进行解决。
 
 - `Adobe` 思源字体
 
