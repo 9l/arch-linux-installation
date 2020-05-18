@@ -92,31 +92,31 @@ Enter a selection (default=all):
 [username@arch ~]$ sudo pacman -S chromium firefox
 ```
 
-*打开浏览器*
+打开浏览器
 
-> 桌面底部面板图标打开浏览器
+*从桌面底部面板图标打开浏览器*
 
 ![archlinux-xfce-web-browser-01](images/426-archlinux-xfce-web-browser-01-800x600.png)
 
-> 桌面鼠标右键菜单打开浏览器
+*从桌面鼠标右键菜单打开浏览器*
 
 ![archlinux-xfce-web-browser-02](images/427-archlinux-xfce-web-browser-02-800x600.png)
 
-> 桌面顶部菜单打开浏览器
+*从桌面顶部菜单打开浏览器*
 
 ![archlinux-xfce-web-browser-03](images/428-archlinux-xfce-web-browser-03-800x600.png)
 
-*修改 `Web Browser` 快捷方式打开的浏览器*
+修改 `Web Browser` 快捷方式打开的浏览器
 
-> 桌面鼠标右键打开 `Preferred Applications` 设置
+*从桌面鼠标右键菜单打开 `Preferred Applications` 设置*
 
 ![archlinux-xfce-preferred-applications-01](images/429-archlinux-xfce-preferred-applications-01-800x600.png)
 
-> 或桌面顶部菜单打开 `Preferred Applications` 设置
+*从桌面顶部菜单打开 `Preferred Applications` 设置*
 
 ![archlinux-xfce-preferred-applications-02](images/430-archlinux-xfce-preferred-applications-02-800x600.png)
 
-> 修改 `Web Browser` 为要想要打开的浏览器
+修改 `Web Browser` 为想要打开的浏览器
 
 ![archlinux-xfce-preferred-applications-03](images/431-archlinux-xfce-preferred-applications-03-800x600.png)
 
@@ -131,7 +131,7 @@ Enter a selection (default=all):
 
 ![archlinux-xfce-appearance-01](images/408-archlinux-xfce-appearance-01-800x600.png)
 
-*从桌面右键菜单打开*
+*从桌面鼠标右键菜单打开*
 
 ![archlinux-xfce-appearance-02](images/432-archlinux-xfce-appearance-02-800x600.png)
 
@@ -231,7 +231,7 @@ Enter a selection (default=all):
 
 ![archlinux-xfce-display-01](images/407-archlinux-xfce-display-01-800x600.png)
 
-*从桌面右键菜单打开*
+*从桌面鼠标右键菜单打开*
 
 ![archlinux-xfce-display-02](images/421-archlinux-xfce-display-02-800x600.png)
 
