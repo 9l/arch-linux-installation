@@ -26,7 +26,7 @@ Arch Linux 中文社区: https://www.archlinuxcn.org/
 
 [arch-linux-install-xfce-desktop-environment.md](arch-linux-install-xfce-desktop-environment.md)
 
-## `Arch Linux` 中文化 
+## `Arch Linux` 系统中文化 
 
 [arch-linux-chinese-localization.md](arch-linux-chinese-localization.md)
 
