@@ -1,0 +1,68 @@
+#! /bin/sh
+set -e
+
+# grub-mkconfig helper script.
+# Copyright (C) 2012  Free Software Foundation, Inc.
+#
+# GRUB is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# GRUB is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
+
+prefix="/usr"
+exec_prefix="/usr"
+datarootdir="/usr/share"
+
+export TEXTDOMAIN=grub
+export TEXTDOMAINDIR="${datarootdir}/locale"
+
+. "${datarootdir}/grub/grub-mkconfig_lib"
+
+efi_volume="/dev/sda1"
+efi_root="/boot/EFI"
+uefi_shell="shellx64_v2.efi"
+uefi_shell_file="$efi_root/$uefi_shell"
+
+if [ -z "$(lsblk | grep $efi_root)" ]; then
+  mount $efi_volume $efi_root
+  if [ -e $uefi_shell_file ]; then
+    LABEL="UEFI Shell x86_64"
+
+    gettext_printf "Adding boot menu entry for UEFI Shell x86_64\n" >&2
+
+    onstr="$(gettext_printf "(on %s)" "${DEVICE}")"
+
+    cat << EOF
+menuentry '$LABEL' \$menuentry_id_option 'uefi-shell' {
+        insmod fat
+        insmod chain
+        search --no-floppy --set=root --file /$uefi_shell
+        chainloader /$uefi_shell
+}
+EOF
+  fi
+  umount $efi_volume
+elif [ -e $uefi_shell_file ]; then
+  LABEL="UEFI Shell x86_64"
+
+  gettext_printf "Adding boot menu entry for UEFI Shell x86_64\n" >&2
+
+  onstr="$(gettext_printf "(on %s)" "${DEVICE}")"
+
+  cat << EOF
+menuentry '$LABEL' \$menuentry_id_option 'uefi-shell' {
+	insmod fat
+	insmod chain
+	search --no-floppy --set=root --file /$uefi_shell
+	chainloader /$uefi_shell
+}
+EOF
+fi
