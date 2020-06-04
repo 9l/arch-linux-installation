@@ -64,7 +64,7 @@ Arch Linux 官网 [https://www.archlinux.org/](https://www.archlinux.org/)
 root@archiso ~ # ls /sys/firmware/efi/efivars
 ```
 
-![check-efivars](images/104-check-efivars-800x600.png)
+![check-efivars](images/104-archlinux-check-efivars-800x600.png)
 
 ## 安装系统启动后先检查网络
 
