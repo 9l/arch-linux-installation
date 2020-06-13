@@ -494,7 +494,7 @@ user@hostname ~$ scp -P 233 /local/path/to/folder/filename username@arch-ip:/rem
 ```bash
 [username@arch ~]$ sudo pacman -S dmidecode lsscsi mlocate psutils smartmontools sysstat tmux tree usbutils
 [username@arch ~]$ sudo pacman -S clang gd ed git htop iftop llvm lsof ncdu neofetch subversion wget
-[username@arch ~]$ sudo pacman -S cpio p7zip unrar unzip zip
+[username@arch ~]$ sudo pacman -S cpio libappimage p7zip unrar unzip zip
 [username@arch ~]$ sudo pacman -S python python2 python-pip python-setuptools tk
 [username@arch ~]$ sudo pacman -S python-beautifulsoup4 python-cssselect python-lxml python-psutil python-pyopenssl python-pygit2
 ```
