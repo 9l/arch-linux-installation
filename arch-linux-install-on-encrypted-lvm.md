@@ -455,7 +455,7 @@ root@archiso ~ # arch-chroot /mnt
 ## 若需要使用无线网络还需要安装一些软件
 
 ```bash
-[root@archiso /]# pacman -S crda iwd wireless_tools
+[root@archiso /]# pacman -S crda iwd wpa_supplicant wireless_tools
 [root@archiso /]# systemctl enable iwd
 ```
 
