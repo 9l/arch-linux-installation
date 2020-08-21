@@ -84,8 +84,10 @@ root@archiso ~ # dhcpcd
 ## 若电脑使用的是无线网络
 
 ```bash
-root@archiso ~ # wifi-menu
+root@archiso ~ # iwctl
 ```
+
+> iwctl 的使用方法请看官网的 [wiki](https://wiki.archlinux.org/index.php/Iwd_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#iwctl)
 
 ## 启动 `SSH` 服务
 
@@ -444,16 +446,17 @@ root@archiso ~ # arch-chroot /mnt
 
 > 这里让选择 `openresolv` 或 `systemd-resolvconf`，默认是选择 `openresolv`
 
-## 若需要使用无线网络还需要安装一些软件
-
-```bash
-[root@archiso /]# pacman -S crda wireless_tools
-```
-
 ## 系统启动时自动启动网络相关服务
 
 ```bash
 [root@archiso /]# systemctl enable NetworkManager
+```
+
+## 若需要使用无线网络还需要安装一些软件
+
+```bash
+[root@archiso /]# pacman -S crda iwd wireless_tools
+[root@archiso /]# systemctl enable iwd
 ```
 
 ## 安装 `LVM2` 软件包
