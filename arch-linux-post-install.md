@@ -116,6 +116,10 @@ user@hostname ~$ ssh-keygen -a 100 -t ed25519 -C "yourname@youremail.com"
 C:\> ssh-keygen -a 100 -t ed25519 -C "yourname@youremail.com"
 ```
 
+> `-a` 选项在你需要使用有密码的 `SSH Key` 时使用
+
+> `-C` 选项给 `SSH Key` 添加一个说明来方便辨认
+
 `Linux` 默认保存在 `/home/user/.ssh/` 目录下，`Windows 10` 默认保存在 `C:\Users\user/.ssh/` 目录下，`ed25519` 加密方式生成的密钥对默认文件名是 `id_ed25519` 和 `id_ed25519.pub`。`id_ed25519` 是密钥文件不能外泄，`id_ed25519.pub` 是公钥文件，上传这个文件到需要 `SSH` 登录系统上。
 
 > 生成密钥对时会询问是否使用密码加密密钥，有密码会更安全，但是每次登录时都是提示输入密码，不过也可以用 [ssh-agent](https://wiki.archlinux.org/index.php/SSH_keys_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#SSH_agents) 来解决这个小麻烦，所以建议使用有密码的 `SSH Key` 密钥。
