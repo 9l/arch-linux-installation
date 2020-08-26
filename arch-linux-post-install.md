@@ -4,6 +4,7 @@
 
 这章主要讲一下在 `Arch Linux` 安装好后，需要做的一些系统设置。例如开启防火墙，加固 `SSH` 服务的安全，安装更多的工具软件，对一些系统软件的配置等。写比较杂乱，将就着看吧。
 
+
 ## `Arch Linux` 启动成功后会显示登录提示符
 
 使用在安装系统时创建的用户名和密码登录系统
@@ -106,13 +107,13 @@ IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
 打开 `Linux` 的终端，用 `ssh-keygen` 生成密钥对
 
 ```bash
-user@hostname ~$ ssh-keygen -t ed25519
+user@hostname ~$ ssh-keygen -a 100 -t ed25519 -C "yourname@youremail.com"
 ```
 
 打开 `Windows` 的 `命令提示符` 或 `PowerShell`，用 `ssh-keygen` 生成密钥对
 
 ```powershell
-C:\> ssh-keygen -t ed25519
+C:\> ssh-keygen -a 100 -t ed25519 -C "yourname@youremail.com"
 ```
 
 `Linux` 默认保存在 `/home/user/.ssh/` 目录下，`Windows 10` 默认保存在 `C:\Users\user/.ssh/` 目录下，`ed25519` 加密方式生成的密钥对默认文件名是 `id_ed25519` 和 `id_ed25519.pub`。`id_ed25519` 是密钥文件不能外泄，`id_ed25519.pub` 是公钥文件，上传这个文件到需要 `SSH` 登录系统上。
